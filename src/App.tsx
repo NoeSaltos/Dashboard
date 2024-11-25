@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Grid from '@mui/material/Grid2'
+import IndicatorWeather from './components/IndicatorWeather';
 
 function App() {
 
@@ -11,10 +12,10 @@ function App() {
 return (
         <Grid container spacing={5}>
           {/* Indicadores */}
-          <Grid size={{xs: 12,xl:3}}>Elemento: Indicador 1</Grid>
-          <Grid size={{xs: 12,xl:3}}>Elemento: Indicador 2</Grid>
-          <Grid size={{xs: 12,xl:3}}>Elemento: Indicador 3</Grid>
-          <Grid size={{xs: 12,xl:3}}>Elemento: Indicador 4</Grid>
+          <Grid size={{xs: 12,xl:3}}><IndicatorWeather title={'Indicator 1'} subtitle={'Unidad 1'} value={"1.23"} /></Grid>
+          <Grid size={{xs: 12,xl:3}}><IndicatorWeather title={'Indicator 1'} subtitle={'Unidad 1'} value={"1.23"} /></Grid>
+          <Grid size={{xs: 12,xl:3}}><IndicatorWeather title={'Indicator 1'} subtitle={'Unidad 1'} value={"1.23"} /></Grid>
+          <Grid size={{xs: 12,xl:3}}><IndicatorWeather title={'Indicator 1'} subtitle={'Unidad 1'} value={"1.23"} /></Grid>
          
           {/* Tabla */}
           <Grid size={{xs: 12,xl:8}}>Elemento: Tabla</Grid>
